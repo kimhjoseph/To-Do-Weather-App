@@ -1,0 +1,131 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-weight: 400;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.weather-text {
+  display: block;
+  font-weight:300;
+  width: 100%;
+  font-size: 20px;
+  border:0px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  color: #4b545f;
+  background: #fff;
+  font-family: Open Sans,Verdana;
+  padding: 10px 15px;
+  margin: 0px 0px;
+  transition: all 0.1s ease-in-out;
+  text-align: center;
+}
+
+p {
+  margin: 0px 0px;
+}
+
+.ghost-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px auto;
+  font-weight:300;
+  font-size: 17px;
+  border:0px;
+  outline: none;
+  box-sizing: border-box;
+  color: #4b545f;
+  background: #fff;
+  font-family: Open Sans,Verdana;
+  padding: 5px 50px;
+  transition: all 0.1s ease-in-out;
+  text-align: center;
+}
+
+.ghost-input:focus {
+  border-bottom:1px solid #ddd;
+}
+
+.weather-ghost-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px solid #ddd;
+  padding: 5px 40px;
+  transition: all 0.1s ease-in-out;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.weather-ghost-button:hover {
+  border:2px solid #515151;
+}
+
+.list-ghost-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px solid #ddd;
+  padding: 5px 40px;
+  transition: all 0.1s ease-in-out;
+  margin: 0 auto;
+}
+
+.list-item-ghost-button {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px solid #ddd;
+  padding: 5px 40px;
+  transition: all 0.1s ease-in-out;
+}
+
+.list-ghost-button:hover {
+  border:2px solid #515151;
+}
+
+.list-text {
+  font-weight: 300;
+  width: 50%;
+}
